@@ -1,0 +1,24 @@
+{
+  "name": "pruebabases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayanamejia98/pruebabases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayanamejia98/pruebabases/issues"
+  },
+  "homepage": "https://github.com/dayanamejia98/pruebabases#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7"
+  }
+}
