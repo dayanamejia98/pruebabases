@@ -1,5 +1,6 @@
 const {app} = require('./bin/routers')
 
-app.listen( 5000, ()=>{
+app.listen( 3000, ()=>{
+    console.clear()
     console.log("servidor on!")
 })

@@ -8,9 +8,19 @@ const UsuariosSchema = new Schema({
     apellido2: String,
     correo: String,
     contrasena: String,
-    id_curso: Array,
-    id_evaluacion: Array,
+    id_curso: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "Cursos"
+        }
+    ],
+    id_evaluacion: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "Evaluaciones"
+        }
+    ],
 });
 
-var Usuarios = mongoose.model("Usuarios", UsuariosSchema);
+var Usuarios = mongoose.model("usuarios", UsuariosSchema);
 module.exports = Usuarios;
