@@ -1,0 +1,435 @@
+{
+	"info": {
+		"_postman_id": "6d40f569-3aa3-4a80-b8ab-0fcb73fd9465",
+		"name": "proyecto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get actividades",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/actividades",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"actividades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post actividades",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"actividad\": {\r\n\t\t\"nombre\": \"Actividad Postman\",\r\n\t\t\"descripcion\": \"Hecha en postman\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/actividad/5d35cf761c9d4400003de79d",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"actividad",
+						"5d35cf761c9d4400003de79d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put actividades",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t\"actividad\": {\n\t\t\"nombre\": \"letras\"\n\t}\n}\n"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/actividad/5d432c5ce6b0f71e1eed1b93",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"actividad",
+						"5d432c5ce6b0f71e1eed1b93"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/cursos",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"cursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get modulos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/modulos",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"modulos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get niveles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/niveles",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"niveles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Recursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/recursos",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"recursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/users",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get usuario 1 solo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/users/5d43259ef6e7aa10c8825999",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"users",
+						"5d43259ef6e7aa10c8825999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post usuarios",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"usuario\": {\r\n\t\t\"nombre1\": \"dayo\",\r\n\t\t\"nombre2\": \"mejida\",\r\n\t\t\"apellido1\": \"Rodriguez\",\r\n\t\t\"apellido2\": \"Saladen\",\r\n\t\t\"correo\": \"dayito@gmail.com\",\r\n\t\t\"contrasena\": \"1234m\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/users",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put usuario",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"usuario\": {\n\t\t\"nombre1\": \"Miguelote\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/users/5d43259ef6e7aa10c8825999",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"users",
+						"5d43259ef6e7aa10c8825999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/users/5d3f036ec8632404c16594bc",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"users",
+						"5d3f036ec8632404c16594bc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Niveles Usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/niveles/5d35ccb71c9d4400003de799/5d43259ef6e7aa10c8825999",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"niveles",
+						"5d35ccb71c9d4400003de799",
+						"5d43259ef6e7aa10c8825999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear modulo con idNivel",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"modulo\": {\n\t\t\"nombres\": \"Modulo Y\",\n\t\t\"contenido\": \"Contenido del modulo\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/modulos/5d35cf081c9d4400003de79c",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"modulos",
+						"5d35cf081c9d4400003de79c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get modulos por nivel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/modulos/5d35cf081c9d4400003de79c",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"modulos",
+						"5d35cf081c9d4400003de79c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crearNivel",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nivel\": {\n\t\t\"nivel\": 4,\n\t\t\"descripcion\": \"nivel 4\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "https://3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6.ws-us0.gitpod.io/niveles/5d35ccb71c9d4400003de799",
+					"protocol": "https",
+					"host": [
+						"3000-a544d16c-6dc6-48c5-95c7-8baa78490fb6",
+						"ws-us0",
+						"gitpod",
+						"io"
+					],
+					"path": [
+						"niveles",
+						"5d35ccb71c9d4400003de799"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
