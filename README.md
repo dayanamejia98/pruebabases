@@ -1,3 +1,4 @@
-# pruebabases
-#bases de datos
-#Hakuna matata
+INTEGRANTES
+DAYANA JESUS MEJIA NUÑEZ
+YORYI DORIA PETRO
+LUIS FELIPE BERMUDEZ TORRES
