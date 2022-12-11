@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dayanamejia98/pruebabases#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.6.7",
     "pug": "^2.0.4"
   },
